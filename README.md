@@ -34,7 +34,9 @@
 
 Вставить флэшку и создать файл
 - SKIP_ZMOD - не  запуститься moonraker и fluidd
-- REMOVE - удалится мод, кроме MD5, root и beeper
+- REMOVE - удалится мод
+- SKIP_ZMOD - макрос перезагрузки без запуска moonraker и fluidd
+- REMOVE_ZMOD - макрос удаления мода
 
 ## Планируется реализовать
 
