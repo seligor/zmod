@@ -91,6 +91,12 @@
 8. Выключить принетр
 9. Включить принтер
 
+## Версия 0.1.8
+- Поддержка подключения телеграм бота
+- Макрос ZSSH_ON - ZSSH_ON SSH_SERVER SSH_PORT SSH_USER VIDEO_PORT MOON_PORT
+- Макрос ZSSH_OFF - выключить SSH клиента
+- Макрос ZSSH_RESTART - перезапуск SSH клиента
+
 ## Версия 0.1.7
 - Множество исправлений макросов
 - Макрос STOP_ZMOD - временно отключает fluidd/mainstaill и moonraker
