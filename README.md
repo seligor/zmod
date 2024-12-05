@@ -97,6 +97,8 @@ STOP_PRINT
 [Инструкция по Макросам и Телеграм боту](https://github.com/ghzserg/zmod/wiki/Macros)
 
 ## Хранение настроек
+Доступ к папке mod_data. Через веб интерфейс fluidd. Конфигурация -> Файлы конфигурации -> mod_data
+
 - Пользовательские настройки klipper необходимо вносить в файл mod_data/user.cfg.
 - Пользовательские настройки moonraker необходимо вносить в файл mod_data/user.moonraker.cfg.
 - Пользовательские мелодии хранятся в mod_data/midi/
