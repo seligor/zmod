@@ -61,7 +61,7 @@ START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_tempe
 ```
   А конечный код на:
 ```
-STOP_PRINT
+END_PRINT
 ```
 3. Чем отличается работа  с экраном и без экрана
    
