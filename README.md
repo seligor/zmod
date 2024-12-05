@@ -2,7 +2,7 @@
 ## Поддержка moonraker и fluidd/mainsaill на родном Клиппере
 Поддерживаемые функции:
 1. Загрузка и печать файлов через Octoprinter/Fluidd/FlashForge/Mainsail/Telegram Bot
-2. Адаптивное снятие карты стола
+2. Адаптивное снятие карты стола (KAMP)
 3. Чистка сопла , как в родной прошивке
 4. Калибровка PID экструдера(PID_Tune_EXTRUDER) и стола(PID_Tune_BED).
 5. Регулировка винтов стола (Bed_Level_Screws_Tune) + калибровка стола(Auto_Full_Bed_Level)
