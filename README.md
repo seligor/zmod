@@ -98,7 +98,7 @@
 ```
 M190 S[bed_temperature_initial_layer_single]
 M104 S[nozzle_temperature_initial_layer]
-START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] FORCE_KAMP=true
+START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] FORCE_KAMP=True
 ```
 А конечный код на:
 ```
