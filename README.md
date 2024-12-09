@@ -14,6 +14,7 @@
 11. Воспроизведение MIDI файлов [PLAY_MIDI](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
 12. Работа в режиме без родного экрана. Экономит 20 мегабайт оперативной памяти. [DISPLAY_OFF](https://github.com/ghzserg/zmod/wiki/Macros#display_off)
 13. Калибровка стола при любой температуре. [AUTO_FULL_BED_LEVEL](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level)
+14. Контроль MD5, при передаче файла по сети [CHECK_MD5](https://github.com/ghzserg/zmod/wiki/Macros#check_md5)
 
 ## В мод включены следующие функции
 
@@ -63,6 +64,7 @@
 Вместо этого лучше использовать [телеграм бот](https://github.com/ghzserg/zmod/wiki/Macros).
 ### Включите  контроль [MD5]
 
+[CHECK_MD5](https://github.com/ghzserg/zmod/wiki/Macros#check_md5)
 Поиск по ключевому слову MD5(https://github.com/ghzserg/zmod/wiki/Macros).
 
 ### Отправляейте файлы на  печать через "Octo/Klipper".
