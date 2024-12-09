@@ -2,16 +2,16 @@
 ## Поддержка moonraker и fluidd/mainsaill на родном Клиппере
 Поддерживаемые функции:
 1. Загрузка и печать файлов через Octoprinter/Fluidd/FlashForge/Mainsail/Telegram Bot
-2. Адаптивное снятие карты стола (KAMP)
+2. Адаптивное снятие карты стола [KAMP](https://github.com/ghzserg/zmod/wiki/Macros#kamp)
 3. Чистка сопла , как в родной прошивке
-4. Калибровка PID экструдера(PID_Tune_EXTRUDER) и стола(PID_Tune_BED).
-5. Регулировка винтов стола (Bed_Level_Screws_Tune) + калибровка стола(Auto_Full_Bed_Level)
+4. Калибровка PID экструдера [PID_TUNE_EXTRUDER](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_extruder) и стола [PID_TUNE_BED](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_bed).
+5. Регулировка винтов стола [BED_LEVEL_SCREWS_TUNE](https://github.com/ghzserg/zmod/wiki/Macros#bed_level_screws_tune) + калибровка стола [AUTO_FULL_BED_LEVEL](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level)
 6. Снятие шейперов с легкой выгрузкой файлов csv
 7. Работа как с родной так и с альтернативной реализацией камеры (Экономит память и позволяет изменить разрешение камеры.)
 8. Поддержка moonraker-telegram-bot на внешнем хосте
 9. Функционал родного экранного меню не изменен
 9. Автоматическое обновление fluidd/mainstail и файлов конфигурации zmod
-10. Воспроизведение MIDI файлов
+10. Воспроизведение MIDI файлов [PLAY_MIDI](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
 11. Работа в режиме без родного экрана. Экономит 20 мегабайт оперативной памяти.
 12. Калибровка стола при любой температуре
 
@@ -20,7 +20,6 @@
 - Root основан на реализации [@darksimpson](https://t.me/darksimpson). Логин и пароль: root. https://t.me/c/2000598629/12695/186253
 - Beeper основан на реализации [@drmax_gc](https://t.me/drmax_gc). M300. M356 fur Elise. https://t.me/FF_5M_5M_Pro/1/333800
 - Включена проверка md5 от Igor Polunovskiy https://t.me/FF_5M_5M_Pro/12695/272417
-- Калибровка PID стола с экрана. Теперь зайдя в меню отладки, долгое  нажатие  на  "Информацию о машине." Перейдя на вкладку  "Manual". Надо ввести M357 - запускается калибровка на 80 градусах. Если ввести M357 E105 - запустится калибровка на 105 градусах. Далее минут 10 экран не будет реагировать не  на что, но потом  PID от калибруется и запишется в printer.cfg.
 
 Мод во многом основывался на https://github.com/xblax/flashforge_ad5m_klipper_mod/
 
@@ -105,6 +104,8 @@ START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_tempe
 END_PRINT
 ```
 
+Желательно прочитать документацияю к макросу [START_PRINT](https://github.com/ghzserg/zmod/wiki/Macros#start_print)
+
 ### Чем отличается работа с экраном и без экрана
    
 В нашем принтере  128 мегабайт памяти, половину ест система, а 20 мегабайт съедает управление родным экраном. 
@@ -148,7 +149,7 @@ END_PRINT
 
 Мод всегда так пишет - это информационное сообщение. Чтобы не было вопросов, почему я поменял разрешение на HD, а камера так и показывает бяку.
 
-Аналогично он пишет и при выключении камеры через CAMERA_OFF
+Аналогично он пишет и при выключении камеры через [CAMERA_OFF](https://github.com/ghzserg/zmod/wiki/Macros#camera_off)
 
 ### Я установил последнюю версию, а разработчик говорит что надо обновиться.
 
@@ -179,15 +180,16 @@ END_PRINT
 
 ## Известные особенности:
 - Если принтер выполняет какието действия M109 (прогрев стола), калибровку PID - в общем любое  действие, которое заставляет приостановится gcod, то экран замирает
-- Если перезапускается klipper, то экран замерзает
 - После обновления fluidd через веб интерфес, необходимо перезагрузить принтер
-- После обновления ff5m через fluidd, необходимо перезагрузить klipper
-- После отмены печати, на родном экране надо нажать кнопку Ок
+- Если перезапускается klipper, то экран замерзает (используйте перезапуск через NEW_SAVE_CONFIG)
+- После обновления ff5m через fluidd, необходимо перезагрузить klipper (используйте перезапуск через NEW_SAVE_CONFIG)
+- После отмены печати, на родном экране надо нажать кнопку Ок (используйте макрос CLOSE_DIALOGS)
 
 ## Особености версии без экрана
-- Необходимо удалить весь стартовый gcode и прописать START_PRINT в конечный код прописать END_PRINT
-- Не работает камера, необходимо запустить альтернативную камеру через макрос CAMERA_ON
+- Необходимо удалить весь стартовый gcode и прописать [START_PRINT](https://github.com/ghzserg/zmod/wiki/Macros#start_print) в конечный код прописать [END_PRINT](https://github.com/ghzserg/zmod/wiki/Macros#end_print)
+- Не работает камера, необходимо запустить альтернативную камеру через макрос [CAMERA_ON](https://github.com/ghzserg/zmod/wiki/Macros#camera_on)
 - Не работает отправка через протокол FlashForge, т.к. его обрабатывает экран. Необходимо переключиться на протокол "Octo/Klipper"
+  - Протокол: Octo/Klipper
   - Имя хоста: IP_принтера:7125
   - Url-адрес хоста: IP_принтера
 
