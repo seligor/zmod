@@ -181,9 +181,9 @@ END_PRINT
 ## Известные особенности:
 - Если принтер выполняет какието действия M109 (прогрев стола), калибровку PID - в общем любое  действие, которое заставляет приостановится gcod, то экран замирает
 - После обновления fluidd через веб интерфес, необходимо перезагрузить принтер
-- Если перезапускается klipper, то экран замерзает (используйте перезапуск через NEW_SAVE_CONFIG)
-- После обновления ff5m через fluidd, необходимо перезагрузить klipper (используйте перезапуск через NEW_SAVE_CONFIG)
-- После отмены печати, на родном экране надо нажать кнопку Ок (используйте макрос CLOSE_DIALOGS)
+- Если перезапускается klipper, то экран замерзает (используйте перезапуск через [NEW_SAVE_CONFIG](https://github.com/ghzserg/zmod/wiki/Macros#new_save_config))
+- После обновления ff5m через fluidd, необходимо перезагрузить klipper (используйте перезапуск через [NEW_SAVE_CONFIG](https://github.com/ghzserg/zmod/wiki/Macros#new_save_config))
+- После отмены печати, на родном экране надо нажать кнопку Ок (используйте макрос [CLOSE_DIALOGS](https://github.com/ghzserg/zmod/wiki/Macros#close_dialogs))
 
 ## Особености версии без экрана
 - Необходимо удалить весь стартовый gcode и прописать [START_PRINT](https://github.com/ghzserg/zmod/wiki/Macros#start_print) в конечный код прописать [END_PRINT](https://github.com/ghzserg/zmod/wiki/Macros#end_print)
@@ -329,6 +329,6 @@ END_PRINT
 
 ## Удаление - временное отключение мода
 
-- SKIP_ZMOD - макрос перезагрузки без запуска moonraker и fluidd
-- REMOVE_ZMOD - макрос удаления мода
-- SOFT_REMOVE - макрос удаляет мод, но не удаляет audio, md5, root
+- [SKIP_ZMOD](https://github.com/ghzserg/zmod/wiki/Macros#skip_zmod) - макрос перезагрузки без запуска moonraker и fluidd
+- [REMOVE_ZMOD](https://github.com/ghzserg/zmod/wiki/Macros#remove_zmod) - макрос удаления мода
+- [SOFT_REMOVE](https://github.com/ghzserg/zmod/wiki/Macros#soft_remove) - макрос удаляет мод, но не удаляет audio, md5, root
