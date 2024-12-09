@@ -5,15 +5,15 @@
 2. Адаптивное снятие карты стола [KAMP](https://github.com/ghzserg/zmod/wiki/Macros#kamp)
 3. Чистка сопла, как в родной прошивке. [CLEAR_NOIZE](https://github.com/ghzserg/zmod/wiki/Macros#clear_noize)
 4. Калибровка PID экструдера [PID_TUNE_EXTRUDER](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_extruder) и стола [PID_TUNE_BED](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_bed).
-5. Регулировка винтов стола [BED_LEVEL_SCREWS_TUNE](https://github.com/ghzserg/zmod/wiki/Macros#bed_level_screws_tune) + калибровка стола [AUTO_FULL_BED_LEVEL](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level)
+5. Регулировка винтов стола [BED_LEVEL_SCREWS_TUNE](https://github.com/ghzserg/zmod/wiki/Macros#bed_level_screws_tune)
 6. Снятие шейперов с легкой выгрузкой файлов csv. [ZSHAPER](https://github.com/ghzserg/zmod/wiki/Macros#zshaper)
 7. Работа как с родной так и с альтернативной реализацией камеры (Экономит память и позволяет изменить разрешение камеры.) [CAMERA_ON](https://github.com/ghzserg/zmod/wiki/Macros#camera_on)
 8. Поддержка moonraker-telegram-bot на [внешнем хосте](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
 9. Функционал родного экранного меню не изменен
-9. Автоматическое обновление fluidd/mainstail и файлов конфигурации zmod
-10. Воспроизведение MIDI файлов [PLAY_MIDI](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
-11. Работа в режиме без родного экрана. Экономит 20 мегабайт оперативной памяти. [DISPLAY_OFF](https://github.com/ghzserg/zmod/wiki/Macros#display_off)
-12. Калибровка стола при любой температуре. [AUTO_FULL_BED_LEVEL](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level)
+10. Автоматическое обновление fluidd/mainstail и файлов конфигурации zmod
+11. Воспроизведение MIDI файлов [PLAY_MIDI](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
+12. Работа в режиме без родного экрана. Экономит 20 мегабайт оперативной памяти. [DISPLAY_OFF](https://github.com/ghzserg/zmod/wiki/Macros#display_off)
+13. Калибровка стола при любой температуре. [AUTO_FULL_BED_LEVEL](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level)
 
 ## В мод включены следующие функции
 
