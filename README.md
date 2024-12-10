@@ -32,7 +32,7 @@
 
 Ставится на чистую версию не ниже 2.7.5 (2.7.5, 2.7.6)
 
-Чистая версия лежит в папке Stock
+Чистая версия лежит в папке [Stock](https://github.com/ghzserg/zmod/tree/main/Stock)
 
 ## История версий
 [История версий](https://github.com/ghzserg/zmod/wiki/Changelog)
