@@ -41,6 +41,10 @@
 
 [Обязательно к прочтению](https://github.com/ghzserg/zmod/wiki/FAQ)
 
+## Рекомендации по повышению стабильности работы принтера
+
+[Читать - если чтото работает не так](https://github.com/ghzserg/zmod/wiki/Recomendations)
+
 ## Хранение настроек
 Доступ к папке mod_data через веб интерфейс fluidd. 
 
