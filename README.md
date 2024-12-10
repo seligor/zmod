@@ -49,7 +49,7 @@
 
 Весь функйционал работает через макросы
 
-[Список Макросов]https://github.com/ghzserg/zmod/wiki/Macros
+[Список Макросов](https://github.com/ghzserg/zmod/wiki/Macros)
 
 ## Хранение настроек
 Доступ к папке mod_data через веб интерфейс fluidd. 
