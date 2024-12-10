@@ -262,44 +262,44 @@ END_PRINT
 
 ### Версия 0.1.8
 - Поддержка подключения телеграм бота
-- Макрос ZSSH_ON - ZSSH_ON SSH_SERVER SSH_PORT SSH_USER VIDEO_PORT MOON_PORT
-- Макрос ZSSH_OFF - выключить SSH клиента
-- Макрос ZSSH_RESTART - перезапуск SSH клиента
+- Макрос [ZSSH_ON](https://github.com/ghzserg/zmod/wiki/Macros#zssh_on) - ZSSH_ON SSH_SERVER SSH_PORT SSH_USER VIDEO_PORT MOON_PORT
+- Макрос [ZSSH_OFF](https://github.com/ghzserg/zmod/wiki/Macros#zssh_off) - выключить SSH клиента
+- Макрос [ZSSH_RESTART](https://github.com/ghzserg/zmod/wiki/Macros#zssh_restart) - перезапуск SSH клиента
 
 ### Версия 0.1.7
 - Множество исправлений макросов
-- Макрос STOP_ZMOD - временно отключает fluidd/mainstaill и moonraker
+- Макрос [STOP_ZMOD](https://github.com/ghzserg/zmod/wiki/Macros#stop_zmod) - временно отключает fluidd/mainstaill и moonraker
 
 ### Версия 0.1.6
 - Исправлено место нахождение логов
-- Исправлен макрос LOAD_CELL_TARE
+- Исправлен макрос [LOAD_CELL_TARE](https://github.com/ghzserg/zmod/wiki/Macros#load_cell_tare)
 - Исправлен макрос  калибровки PID экструдера и стола
-- Макрос CLEAR_NOIZE - очистка сопла как в родной прошивке
-- Макрос KAMP extruder_temp=[nozzle_temperature_initial_layer] bed_temp=[bed_temperature_initial_layer_single]. Адаптивная карта  стола с очисткой сопла.
-- AUTO_FULL_BED_LEVEL - полностью переписан макрос
+- Макрос [CLEAR_NOIZE](https://github.com/ghzserg/zmod/wiki/Macros#clear_noize) - очистка сопла как в родной прошивке
+- Макрос [KAMP](https://github.com/ghzserg/zmod/wiki/Macros#kamp) extruder_temp=[nozzle_temperature_initial_layer] bed_temp=[bed_temperature_initial_layer_single]. Адаптивная карта  стола с очисткой сопла.
+- [AUTO_FULL_BED_LEVEL](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level) - полностью переписан макрос
 
 ### Версия 0.1.5
 - Добавлен mainsail. Переключение через макрос WEB
 - Макрос STOP - отключает моторы, прописывается в конечный gcod
-- Макрос ZSHAPER - калибровка шейперов и выгрузка файлов csv в /mod_data в конфигурации. Дальнейший анализ через (https://github.com/theycallmek/Klipper-Input-Shaping-Assistant/releases)
-- Макрос LOAD_CELL_TARE - сброс тензодатчиков
+- Макрос [ZSHAPER](https://github.com/ghzserg/zmod/wiki/Macros#zshaper) - калибровка шейперов и выгрузка файлов csv в /mod_data в конфигурации. Дальнейший анализ через (https://github.com/theycallmek/Klipper-Input-Shaping-Assistant/releases)
+- Макрос [LOAD_CELL_TARE](https://github.com/ghzserg/zmod/wiki/Macros#load_cell_tare) - сброс тензодатчиков
 - Исправлена калибровка стола. Теперь можно установить температуру стола и экструдера для калибровки. по умолчанию 120/80
 - Исправлено отключение экрана в режиме без экрана. Он отключатся через 4 минуты.
 
 ### Версия 0.1.4
-- Добавлено управление камерой из мода. Позволяет съэкономить память. И работать с камерой с отключенным экраном. Также можно изменить разрешение камеры. (Реализация подсмотрена у Павла Миронова)
+- Добавлено управление камерой из мода. Позволяет t память. И работать с камерой с отключенным экраном. Также можно изменить разрешение камеры. (Реализация подсмотрена у Павла Миронова)
 - Исправлена ошибка установщика, который в прошлой версии мог удалить [heater_bed] из файлов конфигурации
 - Изменены картинки при установке. Реализовано [@drmax_gc](https://t.me/drmax_gc)
 - Макросы разделены по категориям и переведены на русский язык
-- Макрос DATE_GET - посмотреть текущее время
-- Макрос DATE_SET - установить текущее время
-- Макрос CAMERA_ON - Использовать альтернативную реализацию камеры
-- Макрос CAMERA_OFF - Отключить альтернативную реализацию камеры
+- Макрос [DATE_GET](https://github.com/ghzserg/zmod/wiki/Macros#date_get) - посмотреть текущее время
+- Макрос [DATE_SET](https://github.com/ghzserg/zmod/wiki/Macros#date_set) - установить текущее время
+- Макрос [CAMERA_ON](https://github.com/ghzserg/zmod/wiki/Macros#camera_on) - Использовать альтернативную реализацию камеры
+- Макрос [CAMERA_OFF](https://github.com/ghzserg/zmod/wiki/Macros#camera_off) - Отключить альтернативную реализацию камеры
 
 ### Версия 0.1.3
 - Добавлено воспроизведение MIDI. Файлы хранятся в mod_data/midi - доступ через вкладку конфигурация. Спасибо [@drmax_gc](https://t.me/drmax_gc)
-- Макрос PLAY_MIDI. Играет мелодию PLAY_MIDI FILE=Pain-Shut-your-mouth.mid
-- Макрос SOFT_REMOVE. Удаляет только zmod, оставляет audio, md5, root
+- Макрос [PLAY_MIDI](https://github.com/ghzserg/zmod/wiki/Macros#play_midi). Играет мелодию PLAY_MIDI FILE=Pain-Shut-your-mouth.mid
+- Макрос [SOFT_REMOVE](https://github.com/ghzserg/zmod/wiki/Macros#soft_remove). Удаляет только zmod, оставляет audio, md5, root
 - После обновления настройки moonraker сохраняются
 - Настройки пользователя для klipper пернесены в mod_data/user.cfg
 - Настройки пользователя для moonraker перенесены в mod_data/user.moonraker.cfg
@@ -309,11 +309,11 @@ END_PRINT
 
 ### Версия 0.1.1
 - Поддержка работы с отключенным родным дисплеем. Это экономит 20 мегабайт оперативной памяти. Чтобы  включить этот режим, нужно вызвать макрос DISPLAY_OFF. Клипер перезагрузится и будет использовать альтернативные файлы конфигурации. Рекомендуется снять карту  стола  и сохранить в профиль default. После перезагрузки, экран  станет недоступен через 5 минут и загрузится карта  стола из профиля default.
-- Макрос MEM - показывает сколько памяти используется и каким приложением.
-- Макрос DISPLAY_ON - вернет экран в стандартный режим работы, принтер перезагрузится
-- Макрос LED - включит подсветку на 50%
-- Макрос LED_ON - включит подсветку на 100%
-- Макрос LED_OFF - выключить подсветку
+- Макрос [MEM](https://github.com/ghzserg/zmod/wiki/Macros#mem) - показывает сколько памяти используется и каким приложением.
+- Макрос [DISPLAY_ON](https://github.com/ghzserg/zmod/wiki/Macros#display_on) - вернет экран в стандартный режим работы, принтер перезагрузится
+- Макрос [LED](https://github.com/ghzserg/zmod/wiki/Macros#led) - включит подсветку на 50%
+- Макрос [LED_ON](https://github.com/ghzserg/zmod/wiki/Macros#led_on) - включит подсветку на 100%
+- Макрос [LED_OFF](https://github.com/ghzserg/zmod/wiki/Macros#led_off) - выключить подсветку
 
 ### Версия 0.0.9-fix
 - Исправлена ошибка установки.
@@ -323,10 +323,10 @@ END_PRINT
 - Реализована пауза при печати, обрабатывается через родной экран
 - Реализовано восстановление после паузы, обрабатывается через родной экран
 - Реализована отмена печати, обрабатывается через родной экран
-- REBOOT - макрос перезагружает принтер
-- SHUTDOWN - макрос на отключение принтера
-- SKIP_ZMOD - макрос перезагрузки без запуска moonraker и fluidd
-- REMOVE_ZMOD - макрос удаления мода
+- [REBOOT](https://github.com/ghzserg/zmod/wiki/Macros#reboot) - макрос перезагружает принтер
+- [SHUTDOWN](https://github.com/ghzserg/zmod/wiki/Macros#shutdown) - макрос на отключение принтера
+- [SKIP_ZMOD](https://github.com/ghzserg/zmod/wiki/Macros#skip_zmod) - макрос перезагрузки без запуска moonraker и fluidd
+- [REMOVE_ZMOD](https://github.com/ghzserg/zmod/wiki/Macros#remove_zmod) - макрос удаления мода
 - Исправлена ошибка: "После паузы из-за срабатывания датчика движения филамента восстанавливает печать, но печатает в воздухе сантиметрах в 3 над местом где надо"
 
 ## Удаление - временное отключение мода
