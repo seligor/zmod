@@ -7,28 +7,29 @@
 
 ## Поддержка moonraker и fluidd/mainsaill на родном Клиппере
 Поддерживаемые функции:
-1. Загрузка и печать файлов через Octoprinter/Fluidd/FlashForge/Mainsail/Telegram Bot
+1. Загрузка и печать файлов через Octoprinter/Fluidd/FlashForge/Mainsail/[Telegram Bot](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
 2. Адаптивное снятие карты стола [KAMP](https://github.com/ghzserg/zmod/wiki/Macros#kamp)
-3. Чистка сопла, как в родной прошивке. [CLEAR_NOIZE](https://github.com/ghzserg/zmod/wiki/Macros#clear_noize)
-4. Калибровка PID экструдера [PID_TUNE_EXTRUDER](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_extruder) и стола [PID_TUNE_BED](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_bed).
+3. [Калибровка стола](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level) при любой температуре
+4. Снятие шейперов c генерацией графиков [ZSHAPER](https://github.com/ghzserg/zmod/wiki/Macros#zshaper)
 5. Регулировка винтов стола [BED_LEVEL_SCREWS_TUNE](https://github.com/ghzserg/zmod/wiki/Macros#bed_level_screws_tune)
-6. Снятие шейперов с легкой выгрузкой файлов csv. [ZSHAPER](https://github.com/ghzserg/zmod/wiki/Macros#zshaper), а также с подготовкой PNG изображений
-7. Работа как с родной так и с альтернативной реализацией камеры (Экономит память и позволяет изменить разрешение камеры.) [CAMERA_ON](https://github.com/ghzserg/zmod/wiki/Macros#camera_on)
-8. Поддержка moonraker-telegram-bot на [внешнем хосте](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
-9. Функционал родного экранного меню не изменен
-10. Автоматическое обновление fluidd/mainstail и файлов конфигурации zmod
-11. Воспроизведение MIDI файлов [PLAY_MIDI](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
-12. Работа в режиме без родного экрана. Экономит 20 мегабайт оперативной памяти. [DISPLAY_OFF](https://github.com/ghzserg/zmod/wiki/Macros#display_off)
-13. Калибровка стола при любой температуре. [AUTO_FULL_BED_LEVEL](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level)
-14. Контроль MD5, при передаче файла по сети [CHECK_MD5](https://github.com/ghzserg/zmod/wiki/Macros#check_md5)
+6. Калибровка PID [экструдера](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_extruder) и [стола](https://github.com/ghzserg/zmod/wiki/Macros#pid_tune_bed).
+7. [Чистка сопла, как в родной прошивке](https://github.com/ghzserg/zmod/wiki/Macros#clear_noize)
+8. Работа как с родной так и с [альтернативной реализацией камеры](https://github.com/ghzserg/zmod/wiki/Macros#camera_on) (Экономит память и позволяет изменить разрешение камеры.)
+9. Поддержка moonraker-telegram-bot на [внешнем хосте](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
+10. [Воспроизведение MIDI файлов](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
+11. [Контроль MD5](https://github.com/ghzserg/zmod/wiki/Macros#check_md5), при передаче файла по сети 
+12. Функционал родного экранного меню не изменен
+13. Автоматическое обновление fluidd/mainstail и файлов конфигурации zmod
+14. Работа в [режиме без родного экрана](https://github.com/ghzserg/zmod/wiki/Macros#display_off). Экономит 20 мегабайт оперативной памяти.
+15. Поддержа досупа ROOT, и mc
 
-## В мод включены следующие функции
+## Испльзуемые дополнеия
 
-- Root основан на реализации [@darksimpson](https://t.me/darksimpson). Логин и пароль: root. https://t.me/c/2000598629/12695/186253
-- Beeper основан на реализации [@drmax_gc](https://t.me/drmax_gc). M300. M356 fur Elise. https://t.me/FF_5M_5M_Pro/1/333800
-- Включена проверка md5 от Igor Polunovskiy https://t.me/FF_5M_5M_Pro/12695/272417
+- Root основан на реализации [@darksimpson](https://t.me/darksimpson). Логин и пароль: root. [Ссылка](https://t.me/c/2000598629/12695/186253)
+- Beeper основан на реализации [@drmax_gc](https://t.me/drmax_gc). M300. M356 fur Elise. [Ссылка](https://t.me/FF_5M_5M_Pro/1/333800)
+- Включена проверка md5 от Igor Polunovskiy. [Ссылка](https://t.me/FF_5M_5M_Pro/12695/272417)
 
-Мод во многом основывался на https://github.com/xblax/flashforge_ad5m_klipper_mod/
+Мод во многом основывался на [KlipperMod](https://github.com/xblax/flashforge_ad5m_klipper_mod/)
 
 Ставится на чистую версию не ниже 2.7.5 (2.7.5, 2.7.6)
 
