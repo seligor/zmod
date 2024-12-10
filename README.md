@@ -190,7 +190,9 @@ END_PRINT
 ## Особености версии без экрана
 - Необходимо удалить весь стартовый gcode и прописать [START_PRINT](https://github.com/ghzserg/zmod/wiki/Macros#start_print) в конечный код прописать [END_PRINT](https://github.com/ghzserg/zmod/wiki/Macros#end_print)
 - Не работает камера, необходимо запустить альтернативную камеру через макрос [CAMERA_ON](https://github.com/ghzserg/zmod/wiki/Macros#camera_on)
-- Не работает отправка через протокол FlashForge, т.к. его обрабатывает экран. Необходимо переключиться на протокол "Octo/Klipper"
+- Не работает отправка через протокол FlashForge, т.к. его обрабатывает экран.
+
+  Необходимо переключиться на протокол "Octo/Klipper":
   - Протокол: Octo/Klipper
   - Имя хоста: IP_принтера:7125
   - Url-адрес хоста: IP_принтера
