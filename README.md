@@ -45,6 +45,12 @@
 
 [Читать - если что-то работает не так](https://github.com/ghzserg/zmod/wiki/Recomendations)
 
+## Список Макросов
+
+Весь функйционал работает через макросы
+
+[Список Макросов]https://github.com/ghzserg/zmod/wiki/Macros
+
 ## Хранение настроек
 Доступ к папке mod_data через веб интерфейс fluidd. 
 
