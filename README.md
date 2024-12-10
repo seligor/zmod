@@ -178,9 +178,6 @@ END_PRINT
 
 [Список макросов](https://github.com/ghzserg/zmod/wiki/Macros)
 
-## Список макросов
-[Инструкция по Макросам и Телеграм боту](https://github.com/ghzserg/zmod/wiki/Macros)
-
 ## Хранение настроек
 Доступ к папке mod_data через веб интерфейс fluidd. 
 
