@@ -82,8 +82,6 @@
 
 [На развитие мода](https://www.donationalerts.com/r/zmod_ghzserg)
 
-[Помочь разработке](https://www.tbank.ru/cf/678bsVWum2K)
-
 ## Установка/Обновление/Удаление мода
 
 [Установка/Обновление/Удаление мода](https://github.com/ghzserg/zmod/wiki/Setup)
