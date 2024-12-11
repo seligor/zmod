@@ -86,7 +86,9 @@ https://static.donationalerts.ru/uploads/qr/13330552/qr_d0475887437c29c22a92f0f7
 ## Установка/Обновление/Удаление мода
 
 [Установка/Обновление/Удаление мода](https://github.com/ghzserg/zmod/wiki/Setup)
-![QR](https://static.donationalerts.ru/uploads/qr/13330552/qr_d0475887437c29c22a92f0f724d444c1.png)
+
+<img src="https://static.donationalerts.ru/uploads/qr/13330552/qr_d0475887437c29c22a92f0f724d444c1.png" width="100" alt="QR">
+
 ## Планируется реализовать
 
 1. Включение родного экрана
