@@ -1,4 +1,4 @@
-# FF5M zmod
+# FF5M ZMOD
 
 > [!CAUTION]
 > *Если вы хотите установить этот мод на свой AD5M (Pro), то имейте в виду, что вы рискуете потерять гарантию или повредить принтер. Действуйте на свой страх и риск, если хотите попробовать этот мод!*
@@ -22,7 +22,7 @@
 11. [Воспроизведение MIDI файлов](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
 12. [Контроль MD5](https://github.com/ghzserg/zmod/wiki/Macros#check_md5), при передаче файла по сети 
 13. Функционал родного экранного меню не изменен
-14. Автоматическое обновление fluidd/mainstail и файлов конфигурации zmod
+14. Автоматическое обновление fluidd/mainstail и файлов конфигурации ZMOD
 15. Работа в [режиме без родного экрана](https://github.com/ghzserg/zmod/wiki/Macros#display_off). Экономит 20 мегабайт оперативной памяти.
 16. Поддержа досупа ROOT, и mc
 17. Реализован [COLDPULL/Колдпул](https://github.com/ghzserg/zmod/wiki/Macros#coldpull) (очистка сопла) без насилия. Реализация этого алгоритма (https://t.me/FF_5M_5M_Pro/2836/447172)
