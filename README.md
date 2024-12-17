@@ -34,7 +34,7 @@
 
 Мод во многом основывался на [KlipperMod](https://github.com/xblax/flashforge_ad5m_klipper_mod/)
 
-Ставится на чистую версию не ниже 2.7.5 (2.7.5, 2.7.6)
+Ставится на чистую версию не ниже 2.7.5 (2.7.5, 2.7.6, 2.7.7)
 
 Чистая версия лежит в папке [Stock](https://github.com/ghzserg/zmod/tree/main/Stock)
 
@@ -70,7 +70,7 @@
 - После обновления fluidd через веб интерфес, необходимо перезагрузить принтер
 - Если перезапускается klipper, то экран замерзает (используйте перезапуск через [NEW_SAVE_CONFIG](https://github.com/ghzserg/zmod/wiki/Macros#new_save_config))
 - После обновления ff5m через fluidd, необходимо перезагрузить klipper (используйте перезапуск через [NEW_SAVE_CONFIG](https://github.com/ghzserg/zmod/wiki/Macros#new_save_config))
-- После отмены печати, на родном экране надо нажать кнопку Ок (используйте макрос [CLOSE_DIALOGS](https://github.com/ghzserg/zmod/wiki/Macros#close_dialogs))
+- После отмены печати, на родном экране надо нажать кнопку Ок (используйте макрос [CLOSE_DIALOGS](https://github.com/ghzserg/zmod/wiki/Macros#close_dialogs) или [FAST_CLOSE_DIALOGS](https://github.com/ghzserg/zmod/wiki/Macros#fast_close_dialogs))
 - Родной экран при загрузки печати всегда грузит профиль `DEFAULT_MESH` и после окончания печати всегда удаляет профиль `Default`
 
 ## Особености версии без экрана
