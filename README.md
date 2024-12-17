@@ -25,6 +25,7 @@
 14. Автоматическое обновление fluidd/mainstail и файлов конфигурации zmod
 15. Работа в [режиме без родного экрана](https://github.com/ghzserg/zmod/wiki/Macros#display_off). Экономит 20 мегабайт оперативной памяти.
 16. Поддержа досупа ROOT, и mc
+17. Реализован [COLDPULL/Колдпул](https://github.com/ghzserg/zmod/wiki/Macros#coldpull) (очистка сопла) без насилия. Реализация этого алгоритма (https://t.me/FF_5M_5M_Pro/2836/447172)
 
 ## Используемые дополнения
 
