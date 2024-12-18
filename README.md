@@ -27,18 +27,6 @@
 16. Поддержа досупа ROOT, и mc
 17. Реализован [COLDPULL/Колдпул](https://github.com/ghzserg/zmod/wiki/Macros#coldpull) (очистка сопла) без насилия. Реализация этого алгоритма (https://t.me/FF_5M_5M_Pro/2836/447172)
 
-## Используемые дополнения
-
-- Root основан на реализации [@darksimpson](https://t.me/darksimpson). Логин и пароль: root. [Ссылка](https://t.me/c/2000598629/12695/186253)
-- Beeper основан на реализации [@drmax_gc](https://t.me/drmax_gc). M300. M356 fur Elise. [Ссылка](https://t.me/FF_5M_5M_Pro/1/333800)
-- Включена проверка md5 от Igor Polunovskiy. [Ссылка](https://t.me/FF_5M_5M_Pro/12695/272417)
-
-Мод во многом основывался на [KlipperMod](https://github.com/xblax/flashforge_ad5m_klipper_mod/)
-
-Ставится на чистую версию не ниже 2.7.5 (2.7.5, 2.7.6, 2.7.7)
-
-Чистая версия лежит в папке [Родная_прошивка](https://github.com/ghzserg/zmod/tree/main/%D0%A0%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0)
-
 ## История версий
 [История версий](https://github.com/ghzserg/zmod/wiki/Changelog)
 
@@ -94,3 +82,14 @@
 
 [Установка/Обновление/Удаление мода](https://github.com/ghzserg/zmod/wiki/Setup)
 
+## Используемые дополнения
+
+- Root основан на реализации [@darksimpson](https://t.me/darksimpson). Логин и пароль: root. [Ссылка](https://t.me/c/2000598629/12695/186253)
+- Beeper основан на реализации [@drmax_gc](https://t.me/drmax_gc). M300. M356 fur Elise. [Ссылка](https://t.me/FF_5M_5M_Pro/1/333800)
+- Включена проверка md5 от Igor Polunovskiy. [Ссылка](https://t.me/FF_5M_5M_Pro/12695/272417)
+
+Мод во многом основывался на [KlipperMod](https://github.com/xblax/flashforge_ad5m_klipper_mod/)
+
+Ставится на чистую версию не ниже 2.7.5 (2.7.5, 2.7.6, 2.7.7)
+
+Чистая версия лежит в папке [Родная_прошивка](https://github.com/ghzserg/zmod/tree/main/%D0%A0%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0)
