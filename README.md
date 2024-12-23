@@ -7,6 +7,10 @@
 
 Последняя версия: **1.0.0**
 
+Ставится на чистую версию **не ниже 2.7.5** (2.7.5, 2.7.6, 2.7.7, 2.7.8)
+
+Чистая версия лежит в папке [Родная_прошивка](https://github.com/ghzserg/zmod/tree/main/%D0%A0%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0)
+
 ## Поддержка moonraker и fluidd/mainsaill на родном Клиппере
 Поддерживаемые функции:
 1. Веб интрефейс на базе Fluidd или Mainsail
@@ -90,7 +94,3 @@
 - Включена проверка md5 от Igor Polunovskiy. [Ссылка](https://t.me/FF_5M_5M_Pro/12695/272417)
 
 Мод во многом основывался на [KlipperMod](https://github.com/xblax/flashforge_ad5m_klipper_mod/)
-
-Ставится на чистую версию не ниже 2.7.5 (2.7.5, 2.7.6, 2.7.7, 2.7.8)
-
-Чистая версия лежит в папке [Родная_прошивка](https://github.com/ghzserg/zmod/tree/main/%D0%A0%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0)
