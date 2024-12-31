@@ -79,9 +79,9 @@ MD5 сумма `23ada46aaf7e53bec598d42d9af2df6c  Adventurer5MPro-zmod-1.0.3.tgz
  
 ## Помочь разработке
 
-[На развитие мода](https://www.donationalerts.com/r/zmod_ghzserg)
+[На развитие мода](https://vtb.paymo.ru/collect-money/?transaction=f274b4b2-cc14-4164-ae60-ca0f7c384f0a)
 
-<a href="https://www.donationalerts.com/r/zmod_ghzserg"><img src="https://static.donationalerts.ru/uploads/qr/13330552/qr_d0475887437c29c22a92f0f724d444c1.png" width="100" alt="QR"></a>
+<a href="https://vtb.paymo.ru/collect-money/?transaction=f274b4b2-cc14-4164-ae60-ca0f7c384f0a"><img src="https://raw.githubusercontent.com/ghzserg/zmod/refs/heads/main/VTB.jpg" width="100" alt="QR"></a>
 
 ## Установка/Обновление/Удаление мода
 
