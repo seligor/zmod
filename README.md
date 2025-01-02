@@ -32,6 +32,7 @@ MD5 сумма `23ada46aaf7e53bec598d42d9af2df6c  Adventurer5MPro-zmod-1.0.3.tgz
 15. Работа в [режиме без родного экрана](https://github.com/ghzserg/zmod/wiki/Macros#display_off). Экономит 20 мегабайт оперативной памяти.
 16. Поддержа досупа ROOT, и mc
 17. Реализован [COLDPULL/Колдпул](https://github.com/ghzserg/zmod/wiki/Macros#coldpull) (очистка сопла) без насилия. Реализация [этого алгоритма](https://t.me/FF_5M_5M_Pro/2836/447172)
+18. Entware
 
 ## История версий
 [История версий](https://github.com/ghzserg/zmod/wiki/Changelog)
