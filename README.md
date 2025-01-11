@@ -14,6 +14,12 @@
 
 MD5 сумма `11068c6ef522cafa22a47c61cfad41a9  Adventurer5MPro-zmod-1.0.5.tgz`
 
+Как проверить:
+- перейти в папку где лежит файл Adventurer5MPro-zmod-1.0.5.tgz
+- Правой кнопкой мыши по свободному месту -> `Открыть в терминале`
+- `certutil -hashfile Adventurer5MPro-zmod-1.0.5.tgz md5`
+- Сумма должна совпасть
+
 Ставится на чистую версию **не ниже 2.7.5** (2.7.5, 2.7.6, 2.7.7, 2.7.8, 2.7.9, 3.1.3)
 
 Чистая версия лежит в папке [Родная_прошивка](https://github.com/ghzserg/zmod/tree/main/%D0%A0%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0)
