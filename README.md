@@ -10,14 +10,14 @@
 
 
 
-Последняя версия: **1.0.5**
+Последняя версия: **1.1.0**
 
-MD5 сумма `1316f1e4ea81daa33273fe2f48d2ae81  Adventurer5MPro-zmod-1.0.5.tgz`
+MD5 сумма `1563b39c3282b549997b5ce7c12b2f24  Adventurer5M-zmod-1.1.0.tgz`
 
 Как проверить:
-- перейти в папку где лежит файл Adventurer5MPro-zmod-1.0.5.tgz
+- перейти в папку где лежит файл Adventurer5MPro-zmod-1.1.0.tgz
 - Правой кнопкой мыши по свободному месту -> `Открыть в терминале`
-- `certutil -hashfile Adventurer5MPro-zmod-1.0.5.tgz md5`
+- `certutil -hashfile Adventurer5M-zmod-1.1.0.tgz md5`
 - Сумма должна совпасть
 
 Ставится на чистую версию **не ниже 2.7.5** (2.7.5, 2.7.6, 2.7.7, 2.7.8, 2.7.9, 3.1.3)
