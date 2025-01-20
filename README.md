@@ -91,10 +91,6 @@ MD5 сумма `1563b39c3282b549997b5ce7c12b2f24  Adventurer5M-zmod-1.1.0.tgz`
   - Имя хоста: IP_принтера:7125
   - Url-адрес хоста: IP_принтера
  
-## Установка/Обновление/Удаление мода
-
-[Установка/Обновление/Удаление мода](https://github.com/ghzserg/zmod/wiki/Setup)
-
 ## Используемые дополнения
 
 - Root основан на реализации [@darksimpson](https://t.me/darksimpson). Логин и пароль: root. [Ссылка](https://t.me/c/2000598629/12695/186253)
@@ -103,8 +99,6 @@ MD5 сумма `1563b39c3282b549997b5ce7c12b2f24  Adventurer5M-zmod-1.1.0.tgz`
 
 Мод во многом основывался на [KlipperMod](https://github.com/xblax/flashforge_ad5m_klipper_mod/)
 
-## Помочь разработке
+## Установка/Обновление/Удаление мода
 
-[На развитие мода](https://vtb.paymo.ru/collect-money/?transaction=f274b4b2-cc14-4164-ae60-ca0f7c384f0a)
-
-<a href="https://vtb.paymo.ru/collect-money/?transaction=f274b4b2-cc14-4164-ae60-ca0f7c384f0a"><img src="https://raw.githubusercontent.com/ghzserg/zmod/refs/heads/main/VTB.jpg" width="100" alt="QR"></a>
+[Установка/Обновление/Удаление мода](https://github.com/ghzserg/zmod/wiki/Setup)
