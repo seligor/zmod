@@ -24,8 +24,8 @@ MD5 сумма `1563b39c3282b549997b5ce7c12b2f24  Adventurer5M-zmod-1.1.0.tgz`
 ## Не нужно ставить мод, если вам достаточно исправить следующие проблемы на родной прошивке
 
 Эти функции портированы на стандартную прошивку:
-1. Исправление ошибки [E0017](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0017)
-2. Исправление ошибки [E0011](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0011)
+1. Исправление ошибки [E0011](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0011)
+2. Исправление ошибки [E0017](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0017)
 3. [Отключение обновлений принтера/телеметрии/китайских облаков](https://github.com/ghzserg/zmod/wiki/Macros#china_cloud)
 
 ## Поддержка moonraker и fluidd/mainsaill на родном Клиппере
