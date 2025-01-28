@@ -51,6 +51,7 @@ MD5 сумма `1563b39c3282b549997b5ce7c12b2f24  Adventurer5M-zmod-1.1.0.tgz`
 19. Исправлена ошибка [E0017](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0017)
 20. Исправлена ошибка [E0011](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0011)
 21. [Поддержка отката из прошивки](https://github.com/ghzserg/zmod/wiki/FAQ#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%BE%D1%82%D0%BA%D0%B0%D1%82-%D0%B8%D0%B7-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B8)
+22. [Автоматическая остановка печати при отрыве детали или ударе сопла на стол](https://github.com/ghzserg/zmod/wiki/Macros#nozzle_control).
 
 ## История версий
 [История версий](https://github.com/ghzserg/zmod/wiki/Changelog)
