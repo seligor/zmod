@@ -42,16 +42,16 @@ MD5 сумма `1563b39c3282b549997b5ce7c12b2f24  Adventurer5M-zmod-1.1.0.tgz`
 10. Поддержка moonraker-telegram-bot на [внешнем хосте](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
 11. [Воспроизведение MIDI файлов](https://github.com/ghzserg/zmod/wiki/Macros#play_midi)
 12. [Контроль MD5](https://github.com/ghzserg/zmod/wiki/Macros#check_md5), при передаче файла по сети 
-13. Функционал родного экранного меню не изменен
-14. Автоматическое обновление fluidd/mainstail/moonraker и ZMOD по сети
-15. Работа в [режиме без родного экрана](https://github.com/ghzserg/zmod/wiki/Macros#display_off). Экономит 20 мегабайт оперативной памяти.
-16. Поддержа ROOT и mc
-17. Реализован [COLDPULL/Колдпул](https://github.com/ghzserg/zmod/wiki/Macros#coldpull) (очистка сопла) без насилия. Реализация [этого алгоритма](https://t.me/FF_5M_5M_Pro/2836/447172)
-18. [Entware](https://github.com/ghzserg/zmod/wiki/FAQ#%D0%B2-zmod-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82-entware---%D0%BA%D0%B0%D0%BA-%D0%B8%D0%BC-%D0%B2%D0%BE%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F)
+13. Автоматическое обновление fluidd/mainstail/moonraker и ZMOD по сети
+14. Работа в [режиме без родного экрана](https://github.com/ghzserg/zmod/wiki/Macros#display_off). Экономит 20 мегабайт оперативной памяти.
+15. Поддержа ROOT и mc
+16. Реализован [COLDPULL/Колдпул](https://github.com/ghzserg/zmod/wiki/Macros#coldpull) (очистка сопла) без насилия. Реализация [этого алгоритма](https://t.me/FF_5M_5M_Pro/2836/447172)
+17. [Entware](https://github.com/ghzserg/zmod/wiki/FAQ#%D0%B2-zmod-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82-entware---%D0%BA%D0%B0%D0%BA-%D0%B8%D0%BC-%D0%B2%D0%BE%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F)
+18. Исправлена ошибка [E0011](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0011)
 19. Исправлена ошибка [E0017](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0017)
-20. Исправлена ошибка [E0011](https://github.com/ghzserg/zmod/wiki/Macros#fix_e0011)
-21. [Поддержка отката из прошивки](https://github.com/ghzserg/zmod/wiki/FAQ#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%BE%D1%82%D0%BA%D0%B0%D1%82-%D0%B8%D0%B7-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B8)
-22. [Автоматическая остановка печати при отрыве детали или ударе сопла на стол](https://github.com/ghzserg/zmod/wiki/Macros#nozzle_control).
+20. [Поддержка отката из прошивки](https://github.com/ghzserg/zmod/wiki/FAQ#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%BE%D1%82%D0%BA%D0%B0%D1%82-%D0%B8%D0%B7-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B8)
+21. [Автоматическая остановка печати при отрыве детали или ударе сопла о стол](https://github.com/ghzserg/zmod/wiki/Macros#nozzle_control).
+22. Функционал родного экранного меню не изменен
 
 ## История версий
 [История версий](https://github.com/ghzserg/zmod/wiki/Changelog)
