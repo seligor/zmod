@@ -32,7 +32,7 @@ MD5 сумма `1e516f2ffd3b82269632c45db0346c92  Adventurer5M-zmod-1.3.0.tgz`
 ## Поддержка moonraker и fluidd/mainsaill на родном Клиппере
 Поддерживаемые функции:
 1. Веб интрефейс на базе Fluidd или Mainsail
-2. Загрузка и печать файлов через Octoprinter/Fluidd/FlashForge/Mainsail/[Telegram Bot](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
+2. Загрузка и печать файлов через Octoprinter/Fluidd/FlashForge/Mainsail/[GuppyScreen](https://github.com/ghzserg/zmod/wiki/Macros#display_off)/[Telegram Bot](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
 3. Адаптивное снятие карты стола [KAMP](https://github.com/ghzserg/zmod/wiki/Macros#kamp)
 4. [Калибровка стола](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level) при любой температуре и возможен запуск при начале печати
 5. [Снятие шейперов c генерацией графиков](https://github.com/ghzserg/zmod/wiki/Macros#zshaper)
@@ -53,7 +53,7 @@ MD5 сумма `1e516f2ffd3b82269632c45db0346c92  Adventurer5M-zmod-1.3.0.tgz`
 20. [Поддержка отката из прошивки](https://github.com/ghzserg/zmod/wiki/FAQ#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%BE%D1%82%D0%BA%D0%B0%D1%82-%D0%B8%D0%B7-%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B8)
 21. [Автоматическая остановка печати при отрыве детали или ударе сопла о стол](https://github.com/ghzserg/zmod/wiki/Macros#nozzle_control).
 22. [Проверка и восстановление файлов/прав/символических ссылок родной файловой системы](https://github.com/ghzserg/zmod/wiki/Macros#check_system)
-23. GuppyScreen
+23. [GuppyScreen](https://github.com/ghzserg/zmod/wiki/Macros#display_off)
 24. Функционал родного экранного меню не изменен
 
 ## История версий
