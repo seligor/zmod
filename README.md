@@ -31,7 +31,7 @@ MD5 сумма `1e516f2ffd3b82269632c45db0346c92  Adventurer5M-zmod-1.3.0.tgz`
 
 ## Поддержка Moonraker и Fluidd/Mainsaill/GuppyScreen на родном Клиппере
 Поддерживаемые функции:
-1. Веб интрефейс на базе Fluidd или Mainsail
+1. Веб интрефейс на базе [Fluidd](https://docs.fluidd.xyz/) или [Mainsail](https://docs.mainsail.xyz/)
 2. Загрузка и печать файлов через Octoprinter/Fluidd/FlashForge/Mainsail/[GuppyScreen](https://github.com/ghzserg/zmod/wiki/Macros#display_off)/[Telegram Bot](https://github.com/ghzserg/zmod/wiki/Macros#telegram-bot)
 3. Адаптивное снятие карты стола [KAMP](https://github.com/ghzserg/zmod/wiki/Macros#kamp)
 4. [Калибровка стола](https://github.com/ghzserg/zmod/wiki/Macros#auto_full_bed_level) при любой температуре и возможен запуск при начале печати
